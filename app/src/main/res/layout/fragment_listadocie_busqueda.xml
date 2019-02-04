@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3918734194731544/4688024900"></com.google.android.gms.ads.AdView>
+
+
+        <EditText
+            android:id="@+id/txtCIEBusqueda"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter code or disease and press OK"
+            android:singleLine="true" >
+            <requestFocus />
+        </EditText>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclyBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:clipToPadding="false"
+        android:paddingBottom="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="0dp"
+    card_view:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:id="@+id/linearCapitulos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:clipToPadding="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="A00"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtWiki"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:text="COLERA DEBIDO A VIBRIO CHOLERAE O1, BIOTIPO " />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

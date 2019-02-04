@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ICD 11</string>
+    <string name="navi_capitulo">Chapter</string>
+    <string name="navi_seccion">Chapter</string>
+    <string name="navi_busqueda">Search</string>
+    <string name="navi_favorito">Favorite</string>
+    <string name="navi_aviso">Information</string>
+    <string name="navi_voz">Voice</string>
+    <string name="navi_mas">Más</string>
+    <string name="navi_ads">No Ads</string>
+    <string name="navi_centro">Centro Laboral</string>
+</resources>

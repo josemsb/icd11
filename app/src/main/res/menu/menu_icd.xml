@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_white_24"
+        android:orderInCategory="1"
+        android:title="@string/navi_busqueda"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/baseline_favorite_border_white_24"
+        android:orderInCategory="2"
+        android:title="@string/navi_favorito"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/categoria"
+        android:icon="@drawable/baseline_assignment_white_24"
+        android:orderInCategory="3"
+        android:title="@string/navi_seccion"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mic"
+        android:icon="@drawable/baseline_record_voice_over_white_24"
+        android:orderInCategory="4"
+        android:title="@string/navi_voz"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/centro"
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
+        android:orderInCategory="5"
+        android:title="@string/navi_centro"
+        android:visible="false"
+        yourapp:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ads"
+        android:icon="@drawable/baseline_perm_device_information_white_24"
+        android:orderInCategory="5"
+        android:title="@string/navi_ads"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom" />
+</menu>
